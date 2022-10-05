@@ -19,6 +19,10 @@ const routes = [
     name: 'EventDetails',
     props: true,
     component: EventDetails
+  },
+  {
+    path: '*',
+    component: NotFoundComponent
   }
 ]
 
